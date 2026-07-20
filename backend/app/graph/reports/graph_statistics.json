@@ -1,0 +1,29 @@
+{
+  "nodes": 1055,
+  "edges": 12552,
+  "density": 0.02257614863710352,
+  "average_clustering_coefficient": 0.04856085005507657,
+  "average_degree": 23.795260663507108,
+  "connected_components": 1,
+  "node_types": {
+    "Village": 32,
+    "Weather Region": 8,
+    "Commodity": 7,
+    "Loan Cluster": 5,
+    "Risk Cluster": 3,
+    "Enterprise": 1000,
+    "Intervention": 0
+  },
+  "relationship_types": {
+    "Located In": 2000,
+    "Affected By": 2000,
+    "Depends On": 14000,
+    "Financial Dependency": 2000,
+    "Risk Cluster": 2000,
+    "Similar To": 3104,
+    "Shares Weather": 1000,
+    "Trades": 7000,
+    "Shares Commodity": 7000,
+    "Received Intervention": 0
+  }
+}

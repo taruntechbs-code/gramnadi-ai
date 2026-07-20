@@ -1,0 +1,3 @@
+Graph built in 0.3589 seconds
+Nodes: 1055
+Edges: 12552

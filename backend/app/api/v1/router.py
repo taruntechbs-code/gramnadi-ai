@@ -5,6 +5,7 @@ from app.api.v1.routes import (
     counterfactual_simulation,
     enterprise,
     financial_record,
+    graph,
     health,
     intervention,
     loan,
@@ -30,3 +31,4 @@ api_router.include_router(counterfactual_simulation.router)
 api_router.include_router(village_graph_node.router)
 api_router.include_router(village_graph_edge.router)
 api_router.include_router(ml_prediction.router)
+api_router.include_router(graph.router)

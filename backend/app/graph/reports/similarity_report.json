@@ -1,0 +1,65 @@
+{
+  "enterprise_id": "enterprise-000973",
+  "similar_enterprises": [
+    {
+      "enterprise_id": "enterprise-000162",
+      "similarity": 0.99988,
+      "sector": "Dairy",
+      "village": "Berhampur"
+    },
+    {
+      "enterprise_id": "enterprise-000204",
+      "similarity": 0.99952,
+      "sector": "Dairy",
+      "village": "Berhampur"
+    },
+    {
+      "enterprise_id": "enterprise-000447",
+      "similarity": 0.99912,
+      "sector": "Dairy",
+      "village": "Berhampur"
+    },
+    {
+      "enterprise_id": "enterprise-000114",
+      "similarity": 0.99908,
+      "sector": "Dairy",
+      "village": "Berhampur"
+    },
+    {
+      "enterprise_id": "enterprise-000567",
+      "similarity": 0.89756,
+      "sector": "Dairy",
+      "village": "Berhampur"
+    },
+    {
+      "enterprise_id": "enterprise-000307",
+      "similarity": 0.74988,
+      "sector": "Dairy",
+      "village": "Thirumangalam"
+    },
+    {
+      "enterprise_id": "enterprise-000061",
+      "similarity": 0.74988,
+      "sector": "Dairy",
+      "village": "Khambhat"
+    },
+    {
+      "enterprise_id": "enterprise-000961",
+      "similarity": 0.74988,
+      "sector": "Dairy",
+      "village": "Sojitra"
+    },
+    {
+      "enterprise_id": "enterprise-000098",
+      "similarity": 0.7498400000000001,
+      "sector": "Dairy",
+      "village": "Perungudi"
+    },
+    {
+      "enterprise_id": "enterprise-000224",
+      "similarity": 0.7498400000000001,
+      "sector": "Dairy",
+      "village": "Polasara"
+    }
+  ]
+}

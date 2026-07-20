@@ -1,0 +1,118 @@
+{
+  "statistics": {
+    "nodes": 1055,
+    "edges": 12552,
+    "density": 0.02257614863710352,
+    "average_clustering_coefficient": 0.04856085005507657,
+    "average_degree": 23.795260663507108,
+    "connected_components": 1,
+    "node_types": {
+      "Village": 32,
+      "Weather Region": 8,
+      "Commodity": 7,
+      "Loan Cluster": 5,
+      "Risk Cluster": 3,
+      "Enterprise": 1000,
+      "Intervention": 0
+    },
+    "relationship_types": {
+      "Located In": 2000,
+      "Affected By": 2000,
+      "Depends On": 14000,
+      "Financial Dependency": 2000,
+      "Risk Cluster": 2000,
+      "Similar To": 3104,
+      "Shares Weather": 1000,
+      "Trades": 7000,
+      "Shares Commodity": 7000,
+      "Received Intervention": 0
+    }
+  },
+  "analytics": {
+    "most_influential_enterprises": [
+      {
+        "node_id": "enterprise:enterprise-000787",
+        "pagerank": 0.0008447263711793058
+      },
+      {
+        "node_id": "enterprise:enterprise-000054",
+        "pagerank": 0.0008015065034793339
+      },
+      {
+        "node_id": "enterprise:enterprise-000882",
+        "pagerank": 0.0007889597963421625
+      },
+      {
+        "node_id": "enterprise:enterprise-000389",
+        "pagerank": 0.0007841873689001439
+      },
+      {
+        "node_id": "enterprise:enterprise-000904",
+        "pagerank": 0.0007785692591039224
+      },
+      {
+        "node_id": "enterprise:enterprise-000115",
+        "pagerank": 0.0007604271598923784
+      },
+      {
+        "node_id": "enterprise:enterprise-000884",
+        "pagerank": 0.0007550951236377279
+      },
+      {
+        "node_id": "enterprise:enterprise-000579",
+        "pagerank": 0.0007538200600685263
+      },
+      {
+        "node_id": "enterprise:enterprise-000062",
+        "pagerank": 0.0007497293095118244
+      },
+      {
+        "node_id": "enterprise:enterprise-000193",
+        "pagerank": 0.0007438039323951239
+      }
+    ],
+    "highest_risk_villages": [
+      {
+        "node_id": "village:Melur",
+        "average_risk": 35.88782608695652
+      },
+      {
+        "node_id": "village:Chhatrapur",
+        "average_risk": 34.59347826086957
+      },
+      {
+        "node_id": "village:Tirumakudalu",
+        "average_risk": 32.75176470588235
+      },
+      {
+        "node_id": "village:Mohanlalganj",
+        "average_risk": 32.7375
+      },
+      {
+        "node_id": "village:Usilampatti",
+        "average_risk": 32.535357142857144
+      },
+      {
+        "node_id": "village:Kuttanad",
+        "average_risk": 31.747692307692304
+      },
+      {
+        "node_id": "village:Malihabad",
+        "average_risk": 31.211935483870974
+      },
+      {
+        "node_id": "village:Junnar",
+        "average_risk": 29.385172413793097
+      },
+      {
+        "node_id": "village:Mohan",
+        "average_risk": 28.357000000000003
+      },
+      {
+        "node_id": "village:Petlad",
+        "average_risk": 27.65565217391304
+      }
+    ]
+  },
+  "community_count": 9
+}
