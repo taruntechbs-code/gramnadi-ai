@@ -1,0 +1,27 @@
+{
+  "categorical_columns": [],
+  "drop_identifier_columns": true,
+  "generate_reports": true,
+  "input_path": "datasets/synthetic_rural_financial_data.parquet",
+  "output_dir": "ml/processed",
+  "plot_distributions": true,
+  "reports_dir": "ml/feature_engineering/reports",
+  "rolling_windows": [
+    3,
+    6,
+    12
+  ],
+  "scaling_method": "none",
+  "seed": 42,
+  "source_format": "auto",
+  "target_columns": [
+    "cash_flow_after_1_month",
+    "cash_flow_after_3_month",
+    "cash_flow_after_6_month",
+    "risk_score",
+    "risk_level"
+  ],
+  "test_ratio": 0.15,
+  "train_ratio": 0.7,
+  "validation_ratio": 0.15
+}

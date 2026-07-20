@@ -1,0 +1,193 @@
+{
+  "constant_columns": [
+    "historical_intervention_count"
+  ],
+  "highly_correlated_pairs": [
+    {
+      "absolute_correlation": 1.0000000000000078,
+      "left": "festival_demand_factor",
+      "right": "festival_season_flag"
+    },
+    {
+      "absolute_correlation": 1.0000000000000113,
+      "left": "monsoon_factor",
+      "right": "monsoon_indicator"
+    },
+    {
+      "absolute_correlation": 0.9840202805008872,
+      "left": "income",
+      "right": "season_x_revenue"
+    },
+    {
+      "absolute_correlation": 0.9891404716469346,
+      "left": "expense",
+      "right": "upi_outflow"
+    },
+    {
+      "absolute_correlation": 0.9990005265010131,
+      "left": "cash_balance",
+      "right": "cash_balance_lag_1"
+    },
+    {
+      "absolute_correlation": 0.9920630927590477,
+      "left": "inventory_value",
+      "right": "commodity_x_inventory"
+    },
+    {
+      "absolute_correlation": 0.999999970581208,
+      "left": "debt_service_ratio",
+      "right": "debt_service_ratio_feature"
+    },
+    {
+      "absolute_correlation": 1.0,
+      "left": "income_rolling_3m",
+      "right": "3_month_revenue_mean"
+    },
+    {
+      "absolute_correlation": 1.0,
+      "left": "expense_rolling_3m",
+      "right": "3_month_expense_mean"
+    },
+    {
+      "absolute_correlation": 0.9889329187075494,
+      "left": "expense_rolling_3m",
+      "right": "6_month_expense_mean"
+    },
+    {
+      "absolute_correlation": 0.9820610172794076,
+      "left": "expense_rolling_3m",
+      "right": "12_month_expense_mean"
+    },
+    {
+      "absolute_correlation": 1.0,
+      "left": "cash_flow_volatility_3m",
+      "right": "3_month_cashflow_std"
+    },
+    {
+      "absolute_correlation": 0.9999999999999296,
+      "left": "profit_margin",
+      "right": "expense_ratio"
+    },
+    {
+      "absolute_correlation": 0.9971643277320086,
+      "left": "weather_severity_index",
+      "right": "weather_x_commodity"
+    },
+    {
+      "absolute_correlation": 0.999999999999998,
+      "left": "enterprise_age_months",
+      "right": "years_in_business"
+    },
+    {
+      "absolute_correlation": 0.9897898498118735,
+      "left": "historical_average_revenue",
+      "right": "12_month_revenue_mean"
+    },
+    {
+      "absolute_correlation": 0.990549709625357,
+      "left": "historical_average_expenses",
+      "right": "6_month_expense_mean"
+    },
+    {
+      "absolute_correlation": 0.9964814069925301,
+      "left": "historical_average_expenses",
+      "right": "12_month_expense_mean"
+    },
+    {
+      "absolute_correlation": 0.9838948218580411,
+      "left": "historical_average_cash_flow",
+      "right": "12_month_cashflow_mean"
+    },
+    {
+      "absolute_correlation": 0.9889329187075494,
+      "left": "3_month_expense_mean",
+      "right": "6_month_expense_mean"
+    },
+    {
+      "absolute_correlation": 0.9820610172794076,
+      "left": "3_month_expense_mean",
+      "right": "12_month_expense_mean"
+    },
+    {
+      "absolute_correlation": 0.9812018799922859,
+      "left": "6_month_revenue_mean",
+      "right": "12_month_revenue_mean"
+    },
+    {
+      "absolute_correlation": 0.9940174952665022,
+      "left": "6_month_expense_mean",
+      "right": "12_month_expense_mean"
+    },
+    {
+      "absolute_correlation": 1.0,
+      "left": "6_month_cashflow_std",
+      "right": "6_month_rolling_volatility"
+    }
+  ],
+  "identifier_columns": [],
+  "input_feature_count": 124,
+  "near_zero_variance_columns": [
+    "employees",
+    "event_expense_factor",
+    "event_income_factor",
+    "festival_demand_factor",
+    "festival_season_flag",
+    "harvest_factor",
+    "high_debt_flag",
+    "historical_intervention_count",
+    "interest_rate",
+    "loan_default_flag",
+    "low_savings_flag",
+    "market_price_multiplier",
+    "monsoon_factor",
+    "monsoon_indicator",
+    "month",
+    "negative_cash_flow_flag",
+    "previous_default_count",
+    "quarter",
+    "seasonal_expense_factor",
+    "seasonal_income_factor",
+    "summer_factor",
+    "supply_chain_delay_days",
+    "weather_shock_flag",
+    "year",
+    "year_end_indicator"
+  ],
+  "potential_leakage_columns": [
+    {
+      "column": "risk_score",
+      "reason": "excluded from ML features"
+    },
+    {
+      "column": "risk_level",
+      "reason": "excluded from ML features"
+    },
+    {
+      "column": "risk_factors",
+      "reason": "excluded from ML features"
+    },
+    {
+      "column": "cash_flow_after_1_month",
+      "reason": "excluded from ML features"
+    },
+    {
+      "column": "cash_flow_after_3_month",
+      "reason": "excluded from ML features"
+    },
+    {
+      "column": "cash_flow_after_6_month",
+      "reason": "excluded from ML features"
+    },
+    {
+      "column": "risk_x_cash_flow",
+      "reason": "excluded from ML features"
+    }
+  ],
+  "redundant_columns": [
+    "3_month_revenue_mean",
+    "3_month_expense_mean",
+    "3_month_cashflow_std",
+    "6_month_rolling_volatility"
+  ],
+  "usable_feature_count": 124
+}

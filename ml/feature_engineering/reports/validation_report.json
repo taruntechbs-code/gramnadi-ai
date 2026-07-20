@@ -1,0 +1,44 @@
+{
+  "chronological_order": true,
+  "columns": 78,
+  "duplicate_complete_rows": 0,
+  "duplicate_enterprise_month_rows": 0,
+  "enterprise_history_continuity": true,
+  "errors": [],
+  "invalid_rainfall_rows": 0,
+  "invalid_sector_values": [],
+  "invalid_target_columns": [],
+  "invalid_temperature_rows": 0,
+  "missing_values": {},
+  "negative_value_counts": {},
+  "passed": true,
+  "rows": 36000,
+  "target_leakage_candidates": [
+    {
+      "column": "risk_score",
+      "reason": "explicit target"
+    },
+    {
+      "column": "risk_level",
+      "reason": "explicit target"
+    },
+    {
+      "column": "risk_factors",
+      "reason": "current outcome or derived label"
+    },
+    {
+      "column": "cash_flow_after_1_month",
+      "reason": "explicit target"
+    },
+    {
+      "column": "cash_flow_after_3_month",
+      "reason": "explicit target"
+    },
+    {
+      "column": "cash_flow_after_6_month",
+      "reason": "explicit target"
+    }
+  ],
+  "unexpected_datatypes": {},
+  "warnings": []
+}

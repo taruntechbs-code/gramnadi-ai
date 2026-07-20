@@ -1,0 +1,5 @@
+2026-07-20 17:54:28,400 INFO Loading Phase 3A processed datasets
+2026-07-20 17:54:28,510 INFO Training with 264 features
+2026-07-20 17:55:11,010 INFO Regression tuning complete: best RMSE 11257.5974
+2026-07-20 17:56:19,434 INFO Classification tuning complete: best log loss 0.0020
+2026-07-20 17:56:23,073 INFO Training complete in 114.67 seconds

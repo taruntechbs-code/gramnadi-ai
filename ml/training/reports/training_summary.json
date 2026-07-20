@@ -1,0 +1,45 @@
+{
+  "status": "completed",
+  "train_rows": 25000,
+  "validation_rows": 5000,
+  "test_rows": 6000,
+  "feature_count": 264,
+  "targets": {
+    "future_cashflow_3m": "cash_flow_after_3_month",
+    "risk_label": "risk_level"
+  },
+  "calibration_method": "isotonic",
+  "shap": {
+    "sample_rows": 1000,
+    "feature_count": 264
+  },
+  "regression_metrics": {
+    "mae": 8195.519164673939,
+    "rmse": 11690.06599972786,
+    "r2": 0.588651108214715,
+    "mape": 1.3436479313355307,
+    "median_absolute_error": 5629.672499999999
+  },
+  "classification_metrics": {
+    "accuracy": 0.9985,
+    "precision": 0.9984985183706486,
+    "recall": 0.9985,
+    "f1": 0.9984988999753454,
+    "balanced_accuracy": 0.9949792138140768,
+    "matthews_correlation_coefficient": 0.9959338961950298,
+    "roc_auc": 0.9978569185010583,
+    "pr_auc": 0.9979088808570433,
+    "log_loss": 0.042962928986049406
+  },
+  "runtime_seconds": 114.6724,
+  "artifacts": {
+    "regression_model": "ml/models/regression_model.pkl",
+    "classification_model": "ml/models/classification_model.pkl",
+    "regression_model_joblib": "ml/models/regression_model.joblib",
+    "classification_model_joblib": "ml/models/classification_model.joblib",
+    "feature_metadata": "ml/models/feature_metadata.json",
+    "training_config": "ml/models/training_config.json",
+    "metrics": "ml/models/metrics.json",
+    "model_versions": "ml/models/model_versions.json"
+  }
+}

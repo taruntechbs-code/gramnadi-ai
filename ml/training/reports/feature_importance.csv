@@ -1,0 +1,265 @@
+feature,mean_abs_shap
+12_month_cashflow_mean,6188.545
+month,2623.2393
+historical_average_cash_flow,2488.4312
+12_month_cashflow_std,1227.1283
+quarter,1156.4392
+temperature_rolling_mean,751.06586
+monthly_installment,628.10394
+6_month_cashflow_mean,463.84555
+monsoon_factor,408.21103
+principal_amount,303.2519
+debt_service_ratio_feature,293.77722
+harvest_factor,282.74146
+net_cash_flow_lag_6,265.62122
+annual_turnover,255.29793
+enterprise_type_retail,244.6741
+upi_transaction_count,244.39276
+loan_age_months,213.82341
+inventory_value,207.412
+commodity_price_moving_average,206.90219
+net_cash_flow,195.20514
+6_month_cashflow_std,161.24417
+historical_average_revenue,159.69753
+enterprise_type_agriculture,154.92323
+savings_ratio,121.29591
+inventory_turnover_proxy,115.960464
+loan_x_revenue,114.55101
+commodity_x_inventory,110.595245
+grains_price,110.35356
+debt_service_ratio,105.88479
+cash_balance,99.56324
+3_month_cashflow_mean,88.2539
+sector_Poultry,85.44042
+6_month_rolling_trend,79.74046
+monsoon_indicator,73.945526
+profit_lag_1,72.918846
+sector_Rural Retail,72.86158
+upi_outflow,60.17306
+12_month_revenue_mean,54.64533
+weather_shock_index,54.588387
+cash_flow_volatility_3m,53.50776
+seasonal_expense_factor,52.644
+historical_average_expenses,51.648678
+12_month_revenue_std,49.05095
+enterprise_type_food_processing,46.378708
+expense_rolling_3m,46.035374
+outstanding_loan,40.99937
+income_rolling_3m,38.815388
+commodity_price_momentum,37.59929
+weather_x_sector_Poultry__partly_cloudy,37.31228
+6_month_rolling_volatility,34.921654
+income_lag_1,34.29768
+expense_lag_1,34.238445
+temperature,32.882793
+supply_chain_delay_days,31.35021
+6_month_revenue_mean,30.234798
+6_month_expense_mean,30.181505
+12_month_expense_mean,30.018608
+fish_feed_price,29.333197
+festival_demand_factor,28.287792
+commodity_price_trend,27.700483
+rainfall_rolling_mean,26.67701
+cash_balance_lag_1,25.953405
+credit_utilization_proxy,25.896635
+net_cash_flow_lag_3,25.704336
+revenue_growth_pct,24.5765
+season_monsoon,23.297749
+income_lag_3,22.856804
+profit,22.595064
+enterprise_age_months,21.351194
+vegetables_price,18.092867
+event_income_factor,17.960943
+year,17.313766
+weather_x_sector_Poultry__flood,17.001455
+risk_score_lag_1,16.713999
+3_month_cashflow_std,16.542843
+6_month_revenue_std,16.50798
+expense,16.362148
+sector_Food Processing,16.286844
+savings,15.852952
+loan_late_payment_probability,15.322283
+loan_to_income_ratio,14.764847
+rainfall_anomaly,14.368156
+3_month_expense_mean,13.655884
+3_month_revenue_std,13.125649
+income,12.506968
+season_x_revenue,12.482383
+upi_inflow,12.14705
+season_post_monsoon,11.538937
+sector_Beekeeping,11.105448
+rainfall,11.012567
+commodity_price_volatility,10.995871
+profit_margin,10.403674
+3_month_revenue_mean,10.297945
+milk_price,9.961314
+humidity,9.930478
+temperature_anomaly,9.911859
+employees,9.889304
+commodity_price_index,9.475193
+weather_severity_index,9.217778
+commodity_price_pressure,9.031459
+electricity_price,8.955868
+expense_ratio,8.577316
+cash_flow_growth_pct,7.9504223
+fuel_price,6.235299
+weather_x_commodity,6.2334614
+feed_price,5.8361864
+net_cash_flow_lag_1,5.777409
+loan_type_shg_loan,5.652155
+revenue_growth_3m,5.6031604
+expense_growth_pct,5.5690236
+event_expense_factor,4.5718665
+negative_cash_flow_flag,4.4238973
+market_price_multiplier,4.028549
+years_in_business,3.7076013
+village_Cherthala,3.2990098
+enterprise_type_fisheries,2.5465693
+weather_condition_heavy_rain,2.0041645
+state_Kerala,1.9380177
+weather_x_sector_Fisheries__heavy_rain,1.9050728
+weather_x_sector_Food Processing__heavy_rain,1.9029762
+weather_shock_flag,1.8280786
+village_Baramati,1.2616811
+weather_x_sector_Fisheries__partly_cloudy,1.2376316
+weather_x_sector_Agriculture__dry,1.1977632
+interest_rate,1.1975553
+village_Petlad,1.1545014
+village_Usilampatti,1.0459094
+weather_x_sector_Fisheries__rain,0.8869992
+weather_x_sector_Fisheries__flood,0.85308576
+weather_x_sector_Rural Retail__flood,0.8520485
+district_Lucknow,0.8376137
+village_Berhampur,0.7644559
+weather_x_sector_Food Processing__flood,0.68588865
+village_Mohan,0.67390805
+loan_type_equipment_loan,0.6717937
+weather_x_sector_Food Processing__partly_cloudy,0.67099154
+district_Nadia,0.6552173
+weather_x_sector_Fisheries__dry,0.59137034
+district_Mysuru,0.4990319
+weather_x_sector_Agriculture__rain,0.4905849
+sector_Fisheries,0.46904245
+village_Krishnanagar,0.44749087
+village_Bakshi Ka Talab,0.44747275
+village_Thirumangalam,0.32907438
+village_Periyapatna,0.3276984
+village_Junnar,0.28914204
+season_summer,0.28690168
+village_Kuttanad,0.20907569
+summer_factor,0.1986078
+weather_x_sector_Poultry__rain,0.1875913
+district_Alappuzha,0.17269088
+seasonal_income_factor,0.1619105
+weather_condition_rain,0.15696615
+weather_x_sector_Food Processing__hot,0.0
+weather_x_sector_Agriculture__hot,0.0
+weather_x_sector_Beekeeping__heavy_rain,0.0
+weather_x_sector_Handicrafts__flood,0.0
+weather_x_sector_Beekeeping__flood,0.0
+weather_x_sector_Beekeeping__dry,0.0
+weather_x_sector_Handicrafts__heavy_rain,0.0
+weather_x_sector_Weaving__hot,0.0
+weather_x_sector_Handicrafts__partly_cloudy,0.0
+weather_x_sector_Agriculture__partly_cloudy,0.0
+weather_x_sector_Handicrafts__rain,0.0
+weather_x_sector_Agriculture__flood,0.0
+weather_x_sector_Agriculture__heavy_rain,0.0
+weather_x_sector_Beekeeping__partly_cloudy,0.0
+weather_x_sector_Poultry__dry,0.0
+weather_x_sector_Weaving__dry,0.0
+weather_condition_dry,0.0
+weather_condition_partly_cloudy,0.0
+weather_condition_hot,0.0
+weather_x_sector_Rural Retail__rain,0.0
+weather_x_sector_Weaving__partly_cloudy,0.0
+weather_condition_flood,0.0
+weather_x_sector_Beekeeping__hot,0.0
+weather_x_sector_Weaving__flood,0.0
+weather_x_sector_Rural Retail__partly_cloudy,0.0
+weather_x_sector_Poultry__heavy_rain,0.0
+weather_x_sector_Rural Retail__dry,0.0
+weather_x_sector_Food Processing__rain,0.0
+weather_x_sector_Goat Farming__dry,0.0
+weather_x_sector_Food Processing__dry,0.0
+weather_x_sector_Goat Farming__flood,0.0
+weather_x_sector_Goat Farming__heavy_rain,0.0
+weather_x_sector_Rural Retail__heavy_rain,0.0
+weather_x_sector_Fisheries__hot,0.0
+weather_x_sector_Rural Retail__hot,0.0
+weather_x_sector_Goat Farming__hot,0.0
+weather_x_sector_Beekeeping__rain,0.0
+weather_x_sector_Goat Farming__partly_cloudy,0.0
+weather_x_sector_Dairy__rain,0.0
+weather_x_sector_Dairy__partly_cloudy,0.0
+weather_x_sector_Dairy__heavy_rain,0.0
+weather_x_sector_Dairy__flood,0.0
+weather_x_sector_Goat Farming__rain,0.0
+weather_x_sector_Weaving__heavy_rain,0.0
+weather_x_sector_Handicrafts__dry,0.0
+weather_x_sector_Dairy__dry,0.0
+weather_x_sector_Poultry__hot,0.0
+loan_type_crop_loan,0.0
+village_Tirumakudalu,0.0
+loan_payment_status_defaulted,0.0
+market_event_none,0.0
+market_event_market_price_crash,0.0
+market_event_heavy_rain,0.0
+market_event_fuel_price_increase,0.0
+market_event_flood,0.0
+market_event_festival_demand_surge,0.0
+market_event_drought,0.0
+market_event_disease_outbreak,0.0
+loan_type_working_capital,0.0
+loan_type_none,0.0
+loan_payment_status_paid,0.0
+loan_payment_status_no_loan,0.0
+loan_payment_status_late,0.0
+enterprise_type_manufacturing,0.0
+season_winter,0.0
+enterprise_type_livestock,0.0
+enterprise_type_handicraft,0.0
+district_Pune,0.0
+district_Madurai,0.0
+district_Ganjam,0.0
+district_Anand,0.0
+previous_default_count,0.0
+historical_intervention_count,0.0
+year_end_indicator,0.0
+festival_season_flag,0.0
+high_debt_flag,0.0
+low_savings_flag,0.0
+loan_default_flag,0.0
+market_event_supply_chain_delay,0.0
+sector_Agriculture,0.0
+village_Tehatta,0.0
+village_Chhatrapur,0.0
+village_Sojitra,0.0
+village_Ranaghat,0.0
+village_Polasara,0.0
+village_Perungudi,0.0
+village_Nanjangud,0.0
+village_Mulshi,0.0
+village_Mohanlalganj,0.0
+village_Melur,0.0
+village_Malihabad,0.0
+village_Khed,0.0
+village_Khambhat,0.0
+village_Hunsur,0.0
+village_Haripad,0.0
+village_Chakdaha,0.0
+sector_Dairy,0.0
+village_Borsad,0.0
+village_Aska,0.0
+village_Ambalappuzha,0.0
+state_West Bengal,0.0
+state_Uttar Pradesh,0.0
+state_Tamil Nadu,0.0
+state_Odisha,0.0
+state_Maharashtra,0.0
+state_Karnataka,0.0
+state_Gujarat,0.0
+sector_Weaving,0.0
+sector_Handicrafts,0.0
+sector_Goat Farming,0.0
+weather_x_sector_Weaving__rain,0.0

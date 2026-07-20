@@ -1,0 +1,15 @@
+{
+  "processed_dir": "ml/processed",
+  "output_dir": "ml/models",
+  "reports_dir": "ml/training/reports",
+  "input_format": "auto",
+  "random_seed": 42,
+  "n_trials": 25,
+  "early_stopping_rounds": 50,
+  "shap_enabled": true,
+  "shap_sample_size": 1000,
+  "calibration": "auto",
+  "n_jobs": 4,
+  "regression_params": {},
+  "classification_params": {}
+}
