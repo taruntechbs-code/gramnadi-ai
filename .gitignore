@@ -1,0 +1,43 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# macOS / editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build and local data
+coverage/
+dist/
+build/
+datasets/raw/
+datasets/processed/
+datasets/reports/
+datasets/synthetic_rural_financial_data.csv
+datasets/synthetic_rural_financial_data.parquet
+datasets/synthetic_rural_financial_data.json
+
+# Logs
+*.log

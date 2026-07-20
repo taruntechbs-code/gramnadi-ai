@@ -1,0 +1,52 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: gramnadi-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-gramnadi}
+      POSTGRES_USER: ${POSTGRES_USER:-gramnadi}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-gramnadi}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-gramnadi} -d ${POSTGRES_DB:-gramnadi}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: gramnadi-backend
+    restart: unless-stopped
+    environment:
+      APP_NAME: ${APP_NAME:-GramNadi AI API}
+      APP_VERSION: ${APP_VERSION:-0.1.0}
+      SECRET_KEY: ${SECRET_KEY:-replace-with-a-long-random-development-secret}
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-gramnadi}:${POSTGRES_PASSWORD:-gramnadi}@postgres:5432/${POSTGRES_DB:-gramnadi}
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: ${VITE_API_URL:-http://localhost:8000/api/v1}
+    container_name: gramnadi-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
+
