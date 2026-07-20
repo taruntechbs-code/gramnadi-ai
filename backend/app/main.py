@@ -1,14 +1,31 @@
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from app.api.v1.router import api_router
 from app.core.config import settings
+from app.ml.loader import ModelLoader
 from app.services.exceptions import (
     ConflictError,
     DomainValidationError,
     ResourceNotFoundError,
 )
+
+model_loader = ModelLoader()
+
+
+@asynccontextmanager
+async def lifespan(application: FastAPI):
+    try:
+        model_loader.load()
+    except Exception:
+        # Keep the API available for health diagnostics; ML routes return 503.
+        pass
+    application.state.model_loader = model_loader
+    yield
+
 
 app = FastAPI(
     title=settings.app_name,
@@ -17,6 +34,7 @@ app = FastAPI(
         "Versioned persistence API for GramNadi AI enterprise resilience data. "
         "Prediction records are stored only; no ML inference is performed."
     ),
+    lifespan=lifespan,
 )
 
 app.add_middleware(

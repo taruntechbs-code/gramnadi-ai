@@ -8,6 +8,7 @@ from app.api.v1.routes import (
     health,
     intervention,
     loan,
+    ml_prediction,
     prediction,
     prediction_explanation,
     village_graph_edge,
@@ -28,3 +29,4 @@ api_router.include_router(intervention.router)
 api_router.include_router(counterfactual_simulation.router)
 api_router.include_router(village_graph_node.router)
 api_router.include_router(village_graph_edge.router)
+api_router.include_router(ml_prediction.router)
