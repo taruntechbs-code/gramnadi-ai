@@ -86,7 +86,7 @@ flowchart LR
 ## Repository structure
 
 ```text
-gramnadi-ai/
+CashFlow-AI/
 ├── backend/
 │   ├── alembic/                         # Database migration configuration
 │   └── app/
