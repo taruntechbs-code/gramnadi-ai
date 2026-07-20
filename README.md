@@ -1,4 +1,4 @@
-# GramNadi AI
+# CashFlow AI
 
 ### Predict the Shock. Trace the Ripple. Prescribe the Response.
 
@@ -7,9 +7,9 @@
 [![React](https://img.shields.io/badge/Frontend-React-61DAFB?logo=react&logoColor=111111)](https://react.dev/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-GramNadi AI is an AI-powered Rural Enterprise Resilience Platform for rural
-micro-enterprises, field officers, banks, and financial institutions. It
-combines enterprise finance, UPI activity, weather, commodity prices,
+CashFlow AI is an AI-powered Rural Enterprise Resilience Platform for rural
+micro-enterprises, field officers, banks, and financial institutions. The
+platform combines enterprise finance, UPI activity, weather, commodity prices,
 seasonality, and market events to forecast future cash flow, identify financial
 risk, trace village-level economic relationships, and recommend constrained
 actions before financial stress becomes a default.
@@ -18,8 +18,8 @@ actions before financial stress becomes a default.
 
 Rural enterprises are affected by interacting shocks: a weather event can
 change commodity prices, inventory costs, sales, loan repayment capacity, and
-the health of neighboring businesses. GramNadi AI makes those relationships
-operational through a modular data and decision-support platform.
+the health of neighboring businesses. CashFlow AI turns these relationships
+into operational insight through a modular data and decision-support platform.
 
 The system currently provides:
 
@@ -419,7 +419,7 @@ npm run build
 
 ## Contributors
 
-GramNadi AI is developed by the project team. Team member names and roles can
+CashFlow AI is developed by the project team. Team member names and roles can
 be added here when the final team roster is published.
 
 ## License
