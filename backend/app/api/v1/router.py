@@ -12,6 +12,7 @@ from app.api.v1.routes import (
     ml_prediction,
     prediction,
     prediction_explanation,
+    recommendation,
     village_graph_edge,
     village_graph_node,
     weather_snapshot,
@@ -32,3 +33,4 @@ api_router.include_router(village_graph_node.router)
 api_router.include_router(village_graph_edge.router)
 api_router.include_router(ml_prediction.router)
 api_router.include_router(graph.router)
+api_router.include_router(recommendation.router)

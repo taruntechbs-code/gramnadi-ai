@@ -8,6 +8,7 @@ from app.api.v1.router import api_router
 from app.core.config import settings
 from app.graph.graph_service import GraphService
 from app.ml.loader import ModelLoader
+from app.ml.predictor import Predictor
 from app.services.exceptions import (
     ConflictError,
     DomainValidationError,
@@ -26,6 +27,10 @@ async def lifespan(application: FastAPI):
         # Keep the API available for health diagnostics; ML routes return 503.
         pass
     application.state.model_loader = model_loader
+    if model_loader.loaded:
+        application.state.predictor = Predictor(
+            model_loader.require_loaded(), model_loader.config
+        )
     try:
         graph_service.load()
     except Exception:

@@ -1,0 +1,292 @@
+{
+  "enterprise_id": "enterprise-49",
+  "current_prediction": {
+    "enterprise_id": "enterprise-49",
+    "cash_flow_prediction": 27490.22265625,
+    "risk_prediction": "low",
+    "risk_probability": {
+      "high": 0.0,
+      "low": 1.0,
+      "medium": 0.0
+    },
+    "confidence": {
+      "score": 1.0,
+      "level": "High",
+      "low_confidence": false
+    },
+    "cash_flow_confidence": {
+      "score": 0.6666666666666667,
+      "level": "Medium",
+      "low_confidence": false
+    },
+    "prediction_interval": {
+      "lower": 20617.6669921875,
+      "upper": 34362.7783203125
+    },
+    "top_factors": [
+      {
+        "feature": "12_month_cashflow_mean",
+        "shap_value": 7200.9267578125,
+        "value": 26103.4875
+      },
+      {
+        "feature": "historical_average_cash_flow",
+        "shap_value": 2619.62060546875,
+        "value": 21707.32966666667
+      },
+      {
+        "feature": "month",
+        "shap_value": 2443.8251953125,
+        "value": 7.0
+      },
+      {
+        "feature": "12_month_cashflow_std",
+        "shap_value": -1467.18212890625,
+        "value": 4729.528445139694
+      },
+      {
+        "feature": "quarter",
+        "shap_value": 1110.18310546875,
+        "value": 3.0
+      },
+      {
+        "feature": "temperature_rolling_mean",
+        "shap_value": 778.3045043945312,
+        "value": 31.26
+      },
+      {
+        "feature": "monthly_installment",
+        "shap_value": 517.1915893554688,
+        "value": 7943.13
+      },
+      {
+        "feature": "monsoon_factor",
+        "shap_value": 469.83148193359375,
+        "value": 1.08
+      },
+      {
+        "feature": "annual_turnover",
+        "shap_value": -354.7125549316406,
+        "value": 1237018.84
+      },
+      {
+        "feature": "6_month_cashflow_mean",
+        "shap_value": 348.30523681640625,
+        "value": 24420.920000000002
+      }
+    ],
+    "explanation": {
+      "top_factors": [
+        {
+          "feature": "12_month_cashflow_mean",
+          "shap_value": 7200.9267578125,
+          "value": 26103.4875
+        },
+        {
+          "feature": "historical_average_cash_flow",
+          "shap_value": 2619.62060546875,
+          "value": 21707.32966666667
+        },
+        {
+          "feature": "month",
+          "shap_value": 2443.8251953125,
+          "value": 7.0
+        },
+        {
+          "feature": "12_month_cashflow_std",
+          "shap_value": -1467.18212890625,
+          "value": 4729.528445139694
+        },
+        {
+          "feature": "quarter",
+          "shap_value": 1110.18310546875,
+          "value": 3.0
+        },
+        {
+          "feature": "temperature_rolling_mean",
+          "shap_value": 778.3045043945312,
+          "value": 31.26
+        },
+        {
+          "feature": "monthly_installment",
+          "shap_value": 517.1915893554688,
+          "value": 7943.13
+        },
+        {
+          "feature": "monsoon_factor",
+          "shap_value": 469.83148193359375,
+          "value": 1.08
+        },
+        {
+          "feature": "annual_turnover",
+          "shap_value": -354.7125549316406,
+          "value": 1237018.84
+        },
+        {
+          "feature": "6_month_cashflow_mean",
+          "shap_value": 348.30523681640625,
+          "value": 24420.920000000002
+        }
+      ],
+      "top_positive_factors": [
+        {
+          "feature": "12_month_cashflow_mean",
+          "shap_value": 7200.9267578125,
+          "value": 26103.4875
+        },
+        {
+          "feature": "historical_average_cash_flow",
+          "shap_value": 2619.62060546875,
+          "value": 21707.32966666667
+        },
+        {
+          "feature": "month",
+          "shap_value": 2443.8251953125,
+          "value": 7.0
+        },
+        {
+          "feature": "quarter",
+          "shap_value": 1110.18310546875,
+          "value": 3.0
+        },
+        {
+          "feature": "temperature_rolling_mean",
+          "shap_value": 778.3045043945312,
+          "value": 31.26
+        }
+      ],
+      "top_negative_factors": [
+        {
+          "feature": "12_month_cashflow_std",
+          "shap_value": -1467.18212890625,
+          "value": 4729.528445139694
+        },
+        {
+          "feature": "annual_turnover",
+          "shap_value": -354.7125549316406,
+          "value": 1237018.84
+        }
+      ],
+      "summary": "Cash flow is supported mainly by 12_month_cashflow_mean, historical_average_cash_flow, month and reduced mainly by 12_month_cashflow_std, annual_turnover."
+    },
+    "model": {
+      "version": "3B.1",
+      "trained_on": "2026-07-20T12:26:23.058793+00:00",
+      "feature_count": 264
+    },
+    "inference_timestamp": "2026-07-20T14:52:52.481095+00:00",
+    "latency_ms": 57.91387500357814
+  },
+  "recommendations": [
+    {
+      "recommendation": "Reduce monthly expenses by 5%",
+      "changes": {
+        "expense": 59415.2135,
+        "profit": 35111.0165,
+        "net_cash_flow": 27167.8865,
+        "savings": 11442.9265,
+        "cash_balance": 777284.2965,
+        "expense_ratio": 0.6285579515865596,
+        "profit_margin": 0.37144204841344036
+      },
+      "expected_result": {
+        "cash_flow_before": 27490.22265625,
+        "cash_flow_after": 28118.2265625,
+        "cash_flow_improvement": 628.00390625,
+        "risk_before": "low",
+        "risk_after": "low",
+        "risk_reduction": 0
+      },
+      "confidence": {
+        "score": 1.0,
+        "level": "High",
+        "low_confidence": false
+      },
+      "implementation_difficulty": "Low",
+      "implementation_cost": 3127.1165,
+      "score": -103.26725875,
+      "why_it_works": "Reduce monthly expenses by 5% changes the modeled financial inputs and improves projected cash flow by 628.00. Graph evidence was unavailable for this enterprise.",
+      "graph_evidence": {
+        "available": false,
+        "neighbor_risk": {},
+        "similar_enterprises": [],
+        "community_id": null,
+        "village": null
+      }
+    },
+    {
+      "recommendation": "Reduce monthly expenses by 10%",
+      "changes": {
+        "expense": 56288.097,
+        "profit": 38238.133,
+        "net_cash_flow": 30295.003,
+        "savings": 14570.043,
+        "cash_balance": 780411.4130000001,
+        "expense_ratio": 0.5954759541346355,
+        "profit_margin": 0.4045240458653646
+      },
+      "expected_result": {
+        "cash_flow_before": 27490.22265625,
+        "cash_flow_after": 27614.080078125,
+        "cash_flow_improvement": 123.857421875,
+        "risk_before": "low",
+        "risk_after": "low",
+        "risk_reduction": 0
+      },
+      "confidence": {
+        "score": 1.0,
+        "level": "High",
+        "low_confidence": false
+      },
+      "implementation_difficulty": "Low",
+      "implementation_cost": 6254.233,
+      "score": -638.684908125,
+      "why_it_works": "Reduce monthly expenses by 10% changes the modeled financial inputs and improves projected cash flow by 123.86. Graph evidence was unavailable for this enterprise.",
+      "graph_evidence": {
+        "available": false,
+        "neighbor_risk": {},
+        "similar_enterprises": [],
+        "community_id": null,
+        "village": null
+      }
+    },
+    {
+      "recommendation": "Reduce monthly expenses by 20%",
+      "changes": {
+        "expense": 50033.864,
+        "profit": 44492.366,
+        "net_cash_flow": 36549.236000000004,
+        "savings": 20824.275999999998,
+        "cash_balance": 786665.6460000001,
+        "expense_ratio": 0.5293119592307871,
+        "profit_margin": 0.470688040769213
+      },
+      "expected_result": {
+        "cash_flow_before": 27490.22265625,
+        "cash_flow_after": 27614.080078125,
+        "cash_flow_improvement": 123.857421875,
+        "risk_before": "low",
+        "risk_after": "low",
+        "risk_reduction": 0
+      },
+      "confidence": {
+        "score": 1.0,
+        "level": "High",
+        "low_confidence": false
+      },
+      "implementation_difficulty": "Low",
+      "implementation_cost": 12508.466,
+      "score": -701.227238125,
+      "why_it_works": "Reduce monthly expenses by 20% changes the modeled financial inputs and improves projected cash flow by 123.86. Graph evidence was unavailable for this enterprise.",
+      "graph_evidence": {
+        "available": false,
+        "neighbor_risk": {},
+        "similar_enterprises": [],
+        "community_id": null,
+        "village": null
+      }
+    }
+  ],
+  "generated_at": "2026-07-20T14:52:52.542966+00:00",
+  "latency_ms": 119.83300000429153
+}
